@@ -1,0 +1,23 @@
+<!DOCTYPE html lang=ru>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'homepage.css' %}">
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+    
+    <title>Монумент в честь 850-летия Владимира</title>
+</head>
+<body>
+    <div id="upper-tab">
+        <span onclick="location.href='/'">ГОЛОС ВЛАДИМИРА</span>
+    </div>
+    <div id="content">
+        <span>Монумент в честь 850-летия Владимира</span>
+        <div id="quick-description">
+            <img src="{% static 'pic.png' %}" width="100%" height="70%" style="position: relative;"></img>
+        </div>
+    </div>
+</body>
+</html>

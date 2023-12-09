@@ -1,0 +1,30 @@
+html{
+    background-color: white;
+}
+#upper-tab {
+    width: 100%;
+    padding: 15px;
+    background-color: #005abb;
+    position: absolute;
+    top:0;
+    left:0;
+}
+#upper-tab span {
+    color: white;
+    font-family: Impact;
+    font-size: large;
+    letter-spacing: 2px;
+}
+#content {
+    padding-top: 50px;
+    position: flex;
+    padding-bottom: 20px;
+}
+#content span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+#quick-description img {
+    width: device-width /2;
+    height: device-width * 1.5;
+}
