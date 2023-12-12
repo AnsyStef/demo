@@ -6,5 +6,6 @@ from django.conf import settings
 
 urlpatterns = [
     path('', views.home),
+    path('en/', views.home_eng)
 ]
 urlpatterns += static(settings.STATIC_URL,document_root=settings.STATIC_ROOT) 
