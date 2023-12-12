@@ -20,11 +20,48 @@ html{
     position: flex;
     padding-bottom: 20px;
 }
-#content span {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#content #title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Bold, sans-serif;
     font-size: x-large;
 }
-#quick-description img {
-    width: device-width /2;
-    height: device-width * 1.5;
+#location{
+    margin: 10px 0 10px 0;
+}
+a{
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Bold, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+#fz-mark {
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding: 15px;
+}
+#fz-mark h5 {
+    color: red;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+#fz-mark #to-left{
+    position: flex;
+    left: 0;
+}
+#fz-mark #to-righ{
+    position: flex;
+    right: 0;
+}
+#main-info h5 {
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
